@@ -24,7 +24,7 @@ public class AssignementFirefox {
 					
 						driver.findElement(By.id("search-inp")).sendKeys("selenium");
 						
-						/*//Name
+						//Name
 						driver.findElement(By.name("user_v1[query]")).sendKeys("selenium");
 						
 						//Xpath
@@ -52,7 +52,7 @@ public class AssignementFirefox {
 						
 						System.out.println(taglist.size());
 						
-						*/
+						
 
 	}
 
