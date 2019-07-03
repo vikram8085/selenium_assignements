@@ -26,7 +26,7 @@ public class AssignementXpath {
 		
 		driver.manage().window().maximize();
 		
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);  // Implicit Wait for 20 seconds
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);  // Implicit Wait for 10 seconds
 		
 	    driver.manage().timeouts().setScriptTimeout(30, TimeUnit.SECONDS); // Script time out
 	    
